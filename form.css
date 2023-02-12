@@ -1,0 +1,14 @@
+h1 {
+    width: 393px;
+    height: 96px;
+    left: 142px;
+    top: 78px;
+    position: absolute;
+    /* add font-family: Halant*/
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 150%;
+    letter-spacing: 0.005em;
+    color: #000000;
+}
