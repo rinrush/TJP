@@ -1,10 +1,13 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 h1 {
-    width: 393px;
-    height: 96px;
-    left: 142px;
-    top: 78px;
-    position: absolute;
-    /* add font-family: Halant*/
+    padding-left: 20%;
+    padding-bottom: 40px;
+    font-family: 'Halant', serif;
     font-style: normal;
     font-weight: 600;
     font-size: 64px;
@@ -14,47 +17,46 @@ h1 {
 }
 
 .form{
-    display:flex;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    padding: 0px;
+    padding: 0% 20%;
     gap: 48px;
-    position: absolute;
-    width: 716px;
-    height: 824px;
-    left: 142px;
-    top: 217px;
+    width: 60%;
+    
 }
 
-.Name {
+.row {
     display: flex;
     flex-direction: row;
     align-items: center;
     padding: 0px;
-    gap: 221px;
     width: 716px;
     height: 56px;
     flex: none;
-    order: 0;
     flex-grow: 0;
+    
 }
 
-label {
-    width: 95px;
+.first {
+    gap: 221px;
+    order: 0; 
+}
+
+.tag {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
     height: 24px;
-    font-family: ;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 32px;
-    line-height: 24px;
-    color:#000000;
     flex: none;
     order: 0;
     flex-grow: 0;
 }
 
-input {
+.input {
     box-sizing: border-box;
     width: 400px;
     height: 56px;
@@ -64,3 +66,203 @@ input {
     order: 1;
     flex-grow: 0;
 }
+
+.label{
+    height: 24px;
+    font-family: 'Halant', serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 24px;
+    color: #000000;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.Name {
+    width: 95px;
+}
+
+#Name {
+    width: 95px;
+    
+}
+
+.second {
+    order: 1;
+    gap: 161px; 
+}
+
+.Username {
+    width: 155px;
+}
+
+#Username {
+    width: 155px;
+}
+ .third {
+    order: 2;
+    gap: 172px;
+ }
+
+ .Password {
+    width: 144px;
+ }
+
+ #Password {
+    width: 144px;
+ }
+
+ .fourth {
+    order: 3;
+    gap: 46px;
+ }
+
+ .Retype {
+    width: 270px;
+ }
+
+ #Retype {
+    width: 270px;
+ }
+
+ .fifth {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 202px;
+    width: 539px;
+    height: 24px;
+    flex: none;
+    order: 4;
+    flex-grow: 0;
+ }
+
+ .Gender {
+    width: 114px;
+ }
+
+ #Gender {
+    width: 114px;
+ }
+
+ .radio {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 0px;
+    gap: 20%;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+ }
+
+ .font {
+    font-size: 24px;
+    padding-left: 15px;
+    font-family: 'Manrope', sans-serif;
+ }
+ 
+
+ .sixth {
+    display: flex;
+    gap: 140px;
+    width: 691px;
+    height: 24px;
+    flex: none;
+    order: 5;
+    flex-grow: 0;
+
+ }
+
+ .skills {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    font-size: 24px;
+    font-family: 'Manrope', sans-serif;
+ }
+
+ .check {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+    position: absolute;
+    width: 375px;
+    height: 24px;
+    left: 316px;
+    top: 0px;
+
+ }
+
+ .seventh {
+    width: 716px;
+    order: 6;
+    gap: 90px;
+    
+ }
+
+ .Number {
+    width: 226px;
+ }
+
+ #Number {
+    width: 226px;
+ }
+
+ .eigth {
+    
+    gap: 222px;
+    order: 7;
+ }
+
+ .Email {
+    width: 94px;
+ }
+
+ #Email {
+    width: 94px;
+ }
+
+ .ninth {
+    order: 8;
+    gap: 201px;
+ }
+
+ .College {
+    width: 115px;
+ }
+
+ #College {
+    width: 115px;
+ }
+
+ #submit {
+    position: absolute;
+    width: 400px;
+    height: 56px;
+    left: 32%;
+    top: 1063px;
+    background: #155EEF;
+    border-radius: 4px;
+    color: #FFFFFF;
+ }
+ 
+ .male {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 80%;
+ }
+
+ .input {
+    padding-left: 2%;
+ }
+
+ input {
+    font-family: 'Manrope', sans-serif;
+ }
