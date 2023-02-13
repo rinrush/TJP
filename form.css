@@ -12,3 +12,55 @@ h1 {
     letter-spacing: 0.005em;
     color: #000000;
 }
+
+.form{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 48px;
+    position: absolute;
+    width: 716px;
+    height: 824px;
+    left: 142px;
+    top: 217px;
+}
+
+.Name {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 221px;
+    width: 716px;
+    height: 56px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+label {
+    width: 95px;
+    height: 24px;
+    font-family: ;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 24px;
+    color:#000000;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+input {
+    box-sizing: border-box;
+    width: 400px;
+    height: 56px;
+    border: 1px solid #828282;
+    border-radius: 4px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
