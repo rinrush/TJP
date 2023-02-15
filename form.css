@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+   height: 1200px;
+}
+
 h1 {
     padding-left: 20%;
     padding-bottom: 40px;
@@ -243,15 +247,13 @@ h1 {
  }
 
  #submit {
-    position: absolute;
-    width: 400px;
-    height: 56px;
-    left: 32%;
-    top: 1063px;
-    background: #155EEF;
-    border-radius: 4px;
-    color: #FFFFFF;
- }
+   width: 400px;
+   height: 56px;
+   top: 1063px;
+   background: #155EEF;
+   border-radius: 4px;
+   color: #FFFFFF;
+}
  
  .male {
     display: flex;
@@ -266,3 +268,14 @@ h1 {
  input {
     font-family: 'Manrope', sans-serif;
  }
+
+ .tenth {
+   order: 9;
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-end;
+ }
+
+
+
+ 
