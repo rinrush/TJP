@@ -5,3 +5,10 @@ table {
 td {
     border: 1px solid black;
 }
+
+thead {
+    font-family: 'Halant', serif;
+}
+tbody{
+    font-family: 'Manrope', sans-serif;
+}
