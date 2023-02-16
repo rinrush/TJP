@@ -6,9 +6,35 @@ td {
     border: 1px solid black;
 }
 
+caption {
+    font-family: 'Halant';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 49px;
+    letter-spacing: 0.005em;
+}
+
 thead {
     font-family: 'Halant', serif;
+    font-weight: 600;
+    font-size: 32px;
 }
 tbody{
     font-family: 'Manrope', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+td {
+    width: 262px;
+    height: 64px;
+}
+
+.age {
+    width: 151px;
+}
+
+td {
+    padding-left: 16px;
 }
