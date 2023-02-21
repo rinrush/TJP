@@ -11,9 +11,14 @@ nav {
 .logo {
     display: flex;
     padding-left: 120px;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+    color: #155EEF;
+    font-size: 33,28px;
 }
 
 ul {
     display: flex;
     gap: 103px;
 }
+
