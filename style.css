@@ -6,19 +6,47 @@
 
 nav {
     display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 86.08px;
+    position: absolute;
+    gap: 153px;
+    padding: 16px 120px;
+    background-color: #F1F5FE;
+    width: 100%;
 }
 
 .logo {
     display: flex;
-    padding-left: 120px;
     font-family: 'Manrope', sans-serif;
     font-weight: 700;
     color: #155EEF;
-    font-size: 33,28px;
+    font-size: 33.28px;
+    gap: 10px;
+    width: 680px;
+    height: 54.08px;
 }
 
 ul {
     display: flex;
-    gap: 103px;
+    align-items: center;
+    gap: 97px;
+    list-style: none;
+    font-family: 'Halant', serif;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+#one {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 0,5px;
+    color:#155EEF;
+    width: 94px;
+    height: 44px;
+    border: 1px solid #155EEF;
+    border-radius: 8px;
+    background-color: #F1F5FE;
 }
 
