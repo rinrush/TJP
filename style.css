@@ -1,0 +1,13 @@
+nav {
+    display: flex;
+}
+
+.logo {
+    display: flex;
+    padding-left: 120px;
+}
+
+ul {
+    display: flex;
+    gap: 103px;
+}
