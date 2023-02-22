@@ -78,7 +78,7 @@ ul {
     flex-direction: column;
     align-items: flex-start;
     gap: 8px;
-    width: 840px;
+    width: 900px;
     height: 335px;
     padding-left: 120px;
     padding-top: 102px;
@@ -200,7 +200,7 @@ h2 {
 
 footer {
     width: 100%;
-    height: 96px;
+    height: 88px;
     display: flex;
     background-color: #080808;
     align-items: center;
