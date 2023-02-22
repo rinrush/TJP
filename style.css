@@ -224,3 +224,7 @@ footer {
     letter-spacing: 0.5px;
     color: #FFFFFF;
 }
+
+#home {
+    text-decoration: underline #155EEF;
+}
