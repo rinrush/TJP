@@ -246,7 +246,6 @@ footer {
         width: 193.08px;
         padding: 0px;
         font-size: 24px;
-        letter-spacing: -0.02em;
     }
 
     ul {
@@ -273,7 +272,7 @@ footer {
     }
 
     #two {
-        width: 100%
+        width: 480px
     }
 
     .about {
