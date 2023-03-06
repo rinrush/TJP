@@ -269,10 +269,22 @@ footer {
         font-size: 24px;
     }
 
+    #two {
+        width: 100%
+    }
+
     .about {
         flex-direction: column;
         background-color: #FFFFFF;
         height: 281px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    #ADD {
+        font-size: 16px;
     }
 
     #bio {
@@ -281,5 +293,8 @@ footer {
 
     footer {
         flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
     }
+
 }
