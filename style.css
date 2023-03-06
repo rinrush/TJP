@@ -243,7 +243,8 @@ footer {
 
     .logo {
         width: 193.08px;
-        padding: 0px
+        padding: 0px;
+        font-size: 24px;
     }
 
     ul {
@@ -254,6 +255,18 @@ footer {
         width: 398px;
         height: 664px;
         flex-direction: column;
+    }
+
+    #in {
+        font-size: 16px;
+    }
+
+    #in2 {
+        font-size: 16px;
+    }
+
+    #name {
+        font-size: 24px;
     }
 
     .about {
