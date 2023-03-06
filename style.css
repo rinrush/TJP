@@ -301,6 +301,10 @@ footer {
         display: none;
     }
 
+    .info {
+        align-items: center;
+    }
+
     footer {
         flex-direction: column;
         justify-content: flex-end;
