@@ -239,7 +239,7 @@ footer {
         padding: 0 8px;
         gap: 181px;
         background-color: #FFFFFF;
-
+        width: 480px;
     }
 
     .logo {
@@ -272,7 +272,14 @@ footer {
     }
 
     #two {
-        width: 480px
+        width: 398px;
+    }
+
+    .intro {
+        align-items: center;
+        justify-content: center;
+        height: 201px;
+        width: 398px;
     }
 
     .about {
