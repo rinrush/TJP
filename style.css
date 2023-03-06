@@ -229,65 +229,70 @@ footer {
     text-decoration: underline #155EEF;
 }
 
+header {
+    display: none;
+}
+
+#joy2 {
+    display: none;
+}
+
 @media screen and (max-width: 480px) {
     body {
         color: #080808;
     }
 
-    nav {
-        height: 50px;
-        padding: 0 8px;
-        gap: 181px;
-        background-color: #FFFFFF;
-        width: 100%;
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
     }
 
-    .logo {
-        width: 193.08px;
-        padding: 0px;
-        font-size: 24px;
+    .logoh {
+        display: flex;
+        align-items: center;
     }
 
-    ul {
+    #joy {
         display: none;
     }
 
-    .bio {
-        width: 100%;
-        height: 664px;
+    #bio {
+        display: none;
+    }
+
+    #joy2 {
+        display: block;
+    }
+
+    .intro {
+        width: 100vw;
+        display: flex;
         flex-direction: column;
         align-items: center;
+        justify-content: center;
+        padding: 0px;
+        margin: 0px;
     }
 
     #in {
         font-size: 16px;
     }
 
+    .name {
+        font-size: 24px;
+    }
+
     #in2 {
         font-size: 16px;
     }
 
-    #name {
-        font-size: 24px;
-    }
-
-    #two {
-        width: 398px;
-    }
-
-    .intro {
-        align-items: center;
-        justify-content: center;
-        height: 201px;
-        width: 398px;
-    }
-
     .about {
-        flex-direction: column;
-        align-items: center;
-        background-color: #FFFFFF;
+        width: 100vw;
         height: 281px;
-        width: 100%;
+        display: block;
+        padding: 0px;
+        margin: 0px;
     }
 
     h2 {
@@ -296,20 +301,14 @@ footer {
 
     #ADD {
         font-size: 16px;
-    }
-
-    #bio {
-        display: none;
-    }
-
-    .info {
-        align-items: center;
+        width: 400px;
     }
 
     footer {
         flex-direction: column;
         justify-content: flex-end;
         align-items: center;
+        width: 100%;
     }
 
     .logo2 {
@@ -320,4 +319,7 @@ footer {
         font-size: 16px;
     }
 
+    nav {
+        display: none;
+    }
 }
