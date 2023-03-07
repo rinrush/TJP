@@ -253,6 +253,10 @@ header {
         justify-content: space-between;
     }
 
+    #vector {
+        padding-right: 10px;
+    }
+
     .logoh {
         display: flex;
         align-items: center;
