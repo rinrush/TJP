@@ -145,7 +145,7 @@ ul {
     align-items: flex-start;
     padding: 16px 24px;
     gap: 32px;
-    width: 623px;
+    /* width: 623px;*/
     height: 374px;
 }
 
@@ -161,6 +161,7 @@ h2 {
     font-size: 24px;
     text-align: justify;
     letter-spacing: 0.5px;
+    width: 600px;
 }
 
 .button {
@@ -263,6 +264,7 @@ header {
         color: #155EEF;
         font-size: 24px;
         font-family: 'Manrope', sans-serif;
+        font-weight: 700;
     }
 
     .bio {
@@ -287,7 +289,6 @@ header {
     }
 
     .intro {
-        width: 100vw;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -311,12 +312,12 @@ header {
     }
 
     .info {
-        width: 480px;
+        /*width: 480px;*/
         align-items: center;
     }
 
     .about {
-        width: 100vw;
+        /*width: 100vw;*/
         height: 300px;
         display: block;
         padding: 0px;
