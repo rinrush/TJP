@@ -164,6 +164,7 @@ h2 {
 .button {
     display: flex;
     gap: 16px;
+    width: 100%;
 }
 
 #three {
@@ -500,7 +501,7 @@ header {
         display: flex;
         flex-direction: row;
         align-items: center;
-        gap: 55px;
+        gap: 30px;
     }
 
     .logo2 {
@@ -510,6 +511,7 @@ header {
 
     .socials {
         height: 25px;
+        gap: 10px:
     }
 
     #end {
