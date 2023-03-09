@@ -277,6 +277,10 @@ h3 {
     color: #525252;
 }
 
+.rec2 {
+    display: none;
+}
+
 footer {
     width: 100%;
     display: flex;
@@ -416,6 +420,75 @@ header {
         width: 375px;
         margin-top: 0px;
 
+    }
+
+    .rec {
+        display: none;
+    }
+
+    .rec2 {
+        display: block;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #E6E6E6;
+        height: 223px;
+    }
+
+    .text2 {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        width: 366px;
+    }
+
+    #h32 {
+        font-size: 24px;
+        font-weight: 600;
+        letter-spacing: 0.5px;
+        font-family: 'Halant', serif;
+        color: #141414;
+        padding: 0px;
+        text-align: center;
+    }
+
+    #exp2 {
+        font-family: 'Manrope', sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        letter-spacing: 0.5px;
+        color: #141414;
+        text-align: justify;
+    }
+
+    .neji2 {
+        display: flex;
+        align-items: center;
+    }
+
+    #neji2 {
+        font-family: 'Halant', serif;
+        font-size: 14px;
+        font-weight: 600px;
+        letter-spacing: 0.5px;
+        color: #525252;
+    }
+
+    #line2 {
+        font-family: 'Halant', serif;
+        font-size: 14px;
+        font-weight: 600;
+        letter-spacing: 0.5px;
+        color: #525252;
+    }
+
+    #senior2 {
+        font-family: 'Halant', serif;
+        font-size: 12px;
+        font-weight: 500;
+        letter-spacing: 0.5px;
+        color: #525252;
     }
 
     #footer1 {
