@@ -165,6 +165,7 @@ h2 {
     display: flex;
     gap: 16px;
     width: 100%;
+    margin-top: 42px;
 }
 
 #three {
@@ -402,7 +403,7 @@ header {
 
     .about {
         /*width: 100vw;*/
-        height: 300px;
+
         display: block;
         padding: 0px;
         margin: 0px;
@@ -435,7 +436,7 @@ header {
         display: flex;
         flex-direction: column;
         gap: 8px;
-
+        width: 100%;
     }
 
     #h32 {
@@ -511,7 +512,8 @@ header {
 
     .socials {
         height: 25px;
-        gap: 10px:
+        gap: 10px;
+
     }
 
     #end {
