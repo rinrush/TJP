@@ -16,7 +16,7 @@ nav {
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    height: 86.08px;
+    /*height: 86.08px;*/
     gap: 153px;
     padding: 16px 120px;
     background-color: #F1F5FE;
@@ -30,8 +30,8 @@ nav {
     color: #155EEF;
     font-size: 33.28px;
     gap: 10px;
-    width: 680px;
-    height: 54.08px;
+    width: 50%;
+    /*height: 54.08px;*/
     letter-spacing: -0.02em;
 }
 
@@ -62,7 +62,7 @@ ul {
     display: flex;
     justify-content: space-around;
     width: 100%;
-    height: 535px;
+    /*height: 535px;*/
     padding-left: 0px;
     top: 80px;
     background-color: black;
@@ -73,8 +73,8 @@ ul {
     flex-direction: column;
     align-items: flex-start;
     gap: 8px;
-    width: 900px;
-    height: 335px;
+    width: 57%;
+    /*height: 335px;*/
     padding-left: 120px;
     padding-top: 102px;
     color: white;
@@ -104,8 +104,6 @@ ul {
 }
 
 #two {
-    width: 164px;
-    height: 44px;
     border: 1px solid #155EEF;
     border-radius: 8px;
     background-color: #155EEF;
@@ -133,8 +131,6 @@ ul {
 }
 
 #bio {
-    width: 516px;
-    height: 374px;
     margin-left: 120px;
     margin-right: 133px;
 }
@@ -146,7 +142,6 @@ ul {
     padding: 16px 24px;
     gap: 32px;
     /* width: 623px;*/
-    height: 374px;
 }
 
 h2 {
@@ -161,7 +156,7 @@ h2 {
     font-size: 24px;
     text-align: justify;
     letter-spacing: 0.5px;
-    width: 600px;
+    width: 75%;
 }
 
 .button {
