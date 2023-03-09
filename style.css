@@ -80,6 +80,10 @@ ul {
     color: white;
 }
 
+#joy2 {
+    width: 100%;
+}
+
 #in {
     font-family: 'Halant', serif;
     font-size: 32px;
@@ -101,6 +105,7 @@ ul {
     font-weight: 500;
     letter-spacing: 0.5px;
     color: #A3A3A3;
+    width: 100%;
 }
 
 #two {
@@ -138,9 +143,6 @@ ul {
 .info {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    padding: 16px 24px;
-    gap: 32px;
     /* width: 623px;*/
 }
 
@@ -389,7 +391,6 @@ header {
 
     #in2 {
         font-size: 16px;
-        width: 400px;
         text-align: center;
     }
 
@@ -412,7 +413,6 @@ header {
 
     #ADD {
         font-size: 16px;
-        width: 375px;
         margin-top: 0px;
 
     }
@@ -428,14 +428,13 @@ header {
         justify-content: center;
         align-items: center;
         background-color: #E6E6E6;
-        height: 223px;
     }
 
     .text2 {
         display: flex;
         flex-direction: column;
         gap: 8px;
-        width: 366px;
+
     }
 
     #h32 {
@@ -455,6 +454,7 @@ header {
         letter-spacing: 0.5px;
         color: #141414;
         text-align: justify;
+        padding: 10px;
     }
 
     .neji2 {
@@ -494,7 +494,6 @@ header {
     #footer2 {
         display: flex;
         flex-direction: column;
-        height: 122px;
     }
 
     .row1 {
