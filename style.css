@@ -194,6 +194,89 @@ h2 {
     color: #155EEF;
 }
 
+.rec {
+    background-color: #E6E6E6;
+    height: 740px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-bottom: 32px;
+
+}
+
+
+#rec {
+    position: absolute;
+}
+
+.rec1 {
+    position: absolute;
+    width: 1272px;
+    height: 611px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    height: 470px;
+    /*width: 735px;*/
+    background-color: #FFFFFF;
+    position: absolute;
+    padding-left: 40px;
+    padding-right: 40px;
+    left: 538px;
+    top: 141px;
+}
+
+h3 {
+    font-size: 32px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    font-family: 'Halant', serif;
+    padding-top: 64px;
+}
+
+#exp {
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'Manrope', sans-serif;
+    letter-spacing: 0.5px;
+    text-align: justify;
+    width: 654px;
+    padding-top: 24px;
+    padding-bottom: 16px;
+}
+
+.neji {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
+#neji {
+    font-size: 24px;
+    font-family: 'Halant', serif;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    color: #525252;
+}
+
+#line {
+    font-weight: 300;
+}
+
+#senior {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Halant', serif;
+    letter-spacing: 0.5px;
+    color: #525252;
+}
+
 footer {
     width: 100%;
     display: flex;
