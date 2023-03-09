@@ -129,10 +129,10 @@ ul {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    height: 438px;
     width: 100%;
     background-color: #F5F8FE;
     margin: 32px 0;
+    padding: 32px;
 }
 
 #bio {
@@ -158,13 +158,12 @@ h2 {
     font-size: 24px;
     text-align: justify;
     letter-spacing: 0.5px;
-    width: 75%;
+    width: 100%;
 }
 
 .button {
     display: flex;
     gap: 16px;
-    width: 100%;
     margin-top: 42px;
 }
 
