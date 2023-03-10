@@ -415,7 +415,7 @@ header {
     #ADD {
         font-size: 16px;
         margin-top: 0px;
-
+        padding: 0 16px 0 16px;
     }
 
     .rec {
@@ -434,7 +434,8 @@ header {
     .text2 {
         display: flex;
         flex-direction: column;
-        gap: 8px;
+        align-items: center;
+        /*gap: 8px;*/
         width: 100%;
     }
 
@@ -444,8 +445,9 @@ header {
         letter-spacing: 0.5px;
         font-family: 'Halant', serif;
         color: #141414;
-        padding: 0px;
+        padding-top: 8px;
         text-align: center;
+        padding-bottom: 8px;
     }
 
     #exp2 {
@@ -455,13 +457,16 @@ header {
         letter-spacing: 0.5px;
         color: #141414;
         text-align: justify;
-        padding: 10px;
+        width: 90%;
     }
 
     .neji2 {
         display: flex;
         align-items: center;
+        justify-content: flex-start;
+        width: 90%;
         gap: 2px;
+        padding: 6px 0 16px 0;
     }
 
     #neji2 {
