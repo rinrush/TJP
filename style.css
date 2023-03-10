@@ -421,6 +421,7 @@ header {
     .button {
         width: 100%;
         margin: 16px 0 14px 0;
+        justify-content: center;
     }
 
     .rec {
