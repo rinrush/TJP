@@ -418,6 +418,11 @@ header {
         padding: 0 16px 0 16px;
     }
 
+    .button {
+        width: 100%;
+        margin: 16px 0 14px 0;
+    }
+
     .rec {
         display: none;
     }
