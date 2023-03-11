@@ -211,8 +211,9 @@ h2 {
 
 .rec1 {
     position: absolute;
-    width: 1272px;
+    width: 91%;
     height: 611px;
+    /*width: 1272px;*/
 }
 
 .text {
