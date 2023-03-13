@@ -128,16 +128,17 @@ ul {
 .about {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+    gap: 157px;
     width: 100%;
     background-color: #F5F8FE;
     margin: 32px 0;
-    padding: 32px;
+    padding: 32px 120px;
 }
 
 #bio {
-    margin-left: 120px;
-    margin-right: 133px;
+    /*margin-left: 120px;
+    margin-right: 133px;*/
 }
 
 .info {
@@ -211,9 +212,9 @@ h2 {
 
 .rec1 {
     position: absolute;
-    width: 91%;
+    /*width: 91%;*/
     height: 611px;
-    /*width: 1272px;*/
+    width: 1272px;
 }
 
 .text {
