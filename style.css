@@ -139,6 +139,7 @@ ul {
 #bio {
     /*margin-left: 120px;
     margin-right: 133px;*/
+    width: 45%;
 }
 
 .info {
@@ -195,41 +196,29 @@ h2 {
 
 .rec {
     background-color: #E6E6E6;
-    height: 740px;
     width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     position: relative;
     margin-bottom: 32px;
-
+    padding: 100px 50px;
 }
 
 
 #rec {
-    position: absolute;
+    width: 50%;
 }
 
-.rec1 {
-    position: absolute;
-    /*width: 91%;*/
-    height: 611px;
-    width: 1272px;
-}
 
 .text {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
-    height: 470px;
-    /*width: 735px;*/
     background-color: #FFFFFF;
     position: absolute;
-    padding-left: 40px;
-    padding-right: 40px;
-    left: 538px;
-    top: 141px;
+    left: 40%;
+    top: 30%;
+    width: 50%;
+    padding: 70px 40px;
 }
 
 h3 {
@@ -237,7 +226,6 @@ h3 {
     font-weight: 600;
     letter-spacing: 0.5px;
     font-family: 'Halant', serif;
-    padding-top: 64px;
 }
 
 #exp {
@@ -246,7 +234,6 @@ h3 {
     font-family: 'Manrope', sans-serif;
     letter-spacing: 0.5px;
     text-align: justify;
-    width: 654px;
     padding-top: 24px;
     padding-bottom: 16px;
 }
