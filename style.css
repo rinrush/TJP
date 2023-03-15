@@ -400,6 +400,10 @@ header {
         margin: 0px;
     }
 
+    .info {
+        width: 100%;
+    }
+
     h2 {
         font-size: 24px;
     }
