@@ -145,7 +145,7 @@ ul {
 .info {
     display: flex;
     flex-direction: column;
-    /* width: 623px;*/
+    width: 50%;
 }
 
 h2 {
